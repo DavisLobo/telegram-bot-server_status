@@ -2,7 +2,7 @@ import subprocess
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TELEGRAM_TOKEN = "8634366176:AAEeH1YlbKZ4l4dYaL4N1-DsyaJgCJ5Vwz0"
+TELEGRAM_TOKEN = "Insira seu Token aqui" #O Token pode ser obtido através do @BotFather no Telegram
 
 def get_cpu_output():
     result = subprocess.run(["cpu"], capture_output=True, text=True)
