@@ -7,3 +7,11 @@ Funções:
 - Boot - Reinicia o servidor
 - Temperatura - Checa temperatura dos componentes
 - Serviços - Checa os serviços rodando
+
+Infraestrutura:
+```
+Rock64
+SoC	4 x ARM Cortex A53 cores @ 1.5 GHz
+GPU	ARM Mali 450 MP2 GPU
+Memory	LPDDR3 RAM (up to 4GB)
+```
